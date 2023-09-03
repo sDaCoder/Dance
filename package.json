@@ -1,0 +1,15 @@
+{
+  "name": "dancing_classes",
+  "version": "1.0.0",
+  "description": "Its the best dance academy in india",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suprava Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

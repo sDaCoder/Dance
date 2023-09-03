@@ -1,0 +1,151 @@
+/* !CSS RESET */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+/* !LOGO SECTION */
+#logo{
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 18px;
+    margin-right: auto;
+}
+
+#logo img{
+    height: 2rem;
+    filter: invert(1);
+    margin: 0 10px;
+}
+
+/* !NAVIGATION BAR */
+#navbar{
+    padding: 16px 6px;
+
+    background-color: rgb(40, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    /* margin-top: 18px; */
+    list-style: none;
+}
+
+#navbar a{
+    font-family: 'Lumanosimo', cursive;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+
+/* !INTRO SECTION */
+#introSection {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 0, 0, 0.25)), url('/static/bg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#introSection h1{
+    font-size: 45px;
+}
+
+
+/* !CARD SECTION */
+#missionSection{
+    height: 55vh;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 13px 3px;
+    font-size: 2rem;
+}
+
+#missionSection .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: 3px ridge black;
+    border-radius: 5px;
+    margin: 11px 20px;
+    height: 15rem;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 16px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 20vh;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+/* !SPONSORS SECTION */
+#sponsorsSection{
+    text-align: center;
+    height: 40vh;
+    /* background-color: rgba(255, 0, 0, 0.201); */
+    margin: auto;
+}
+
+#sponsorsSection h1{
+    margin: 45px 0;
+} 
+
+.spImage{
+    height: 80px;
+    margin: 0 75px;
+}
+
+
+/* !FOOTER SECTION */
+footer{
+    text-align: center;
+    height: 3vh;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style   
+        include ../static/style.css 
+
+block content 
+        
+        section#introSection 
+            h1  Welcome to sDa Dance Academy 
+            h2  Express yourself through dance
+        
+        section#missionSection 
+            h2 Our Mission 
+        
+            div.cards
+                .card 
+                    h3 Dance Perfection   
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/1.png")
+                        div.card-content
+                            p This is the best dance academy of the universe
+                
+                .card 
+                    h3 Dance The Way You Like 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/2.png")
+                        div.card-content
+                            p This is the best dance academy of the world
+                    
+                .card 
+                    h3 Expert Teaching  
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/3.png")
+                        div.card-content
+                            p This is the best dance academy of the India
+
+        section#sponsorsSection 
+            h1 Our Sponsors 
+
+            img(src="../static/img/Flipkart_logo.svg", alt="Sponsor Image", class="spImage")
+            img(src="../static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="../static/img/Physics_wallah_logo.svg", alt="Sponsor Image", class="spImage")
+            img(src="../static/img/Amazon_Web_Services_Logo.svg", alt="Sponsor Image", class="spImage")
