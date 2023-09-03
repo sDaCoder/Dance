@@ -17,6 +17,19 @@ app.get('/', (req, res)=>{
     const params = { };
     res.status(200).render('home.pug', params);
 })
+
+app.post('/', (req, res) => {
+    name = req.body.name;
+    phone = req.body.phone;
+    address = req.body.address;
+    email = req.body.email;
+
+    let outputWrite = `The name of the client is ${name}, bearing phone number ${phone}, residing at ${address}. His/Her email is: ${more}`;
+    fs.writeFileSync('output.txt', outputWrite);
+    const params = {'message': 'Your form has been submitted successfully'};
+    res.status(200).render('index.pug', params);
+    
+})
  
 app.get('/contact', (req, res)=>{
     const params = { };

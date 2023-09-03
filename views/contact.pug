@@ -10,9 +10,11 @@ block style
 block content 
     h1 Contact Us  
     .contactForm 
-        form(action="/contact", method="post")      
+        form#Contact(action='/', method='post')      
             input(type="text", class="myInput", name="name", placeholder="Enter Your Name...")
             input(type="phone", class="myInput", name="phone", placeholder="Enter Your Phone Number")
             input(type="email", class="myInput", name="email", placeholder="Enter Your email id")
             input(type="text", class="myInput", name="address", placeholder="Enter your address...")
+            button.btn Submit
+
     
