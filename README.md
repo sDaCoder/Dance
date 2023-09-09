@@ -1,2 +1,2 @@
-<h1> This is Dance Website for Most Professional Dancers </h1>
-<p> There is a Contact form in the website. Procedure of the Data collection from the form is till under process
+<h1> This is a demo Website for Most Professional Dancers </h1>
+<p> It consists of a very well designed front end and a Quite simple backend </p>
