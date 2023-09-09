@@ -24,7 +24,7 @@ app.post('/', (req, res) => {
     address = req.body.address;
     email = req.body.email;
 
-    let outputWrite = `The name of the client is ${name}, bearing phone number ${phone}, residing at ${address}. His/Her email is: ${more}`;
+    let outputWrite = `The name of the client is ${name}, bearing phone number ${phone}, residing at ${address}. His/Her email is: ${email}`;
     fs.writeFileSync('output.txt', outputWrite);
     const params = {'message': 'Your form has been submitted successfully'};
     res.status(200).render('index.pug', params);
