@@ -98,12 +98,28 @@ form input{
     padding: 2rem;
     
     color: white;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: bolder;
     background-color: rgba(255, 0, 0, 0.15);
     border: 6px ridge white;
     border-radius: 15px;
 }
 
+form button.btn{
+    width: 20vw;
+    /* height: 2vh; */
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    
+    color: white;
+    font-size: 14px;
+    font-family: 'Lumanosimo', cursive;
+    font-weight: bolder;
+    /* background-color: rgba(255, 0, 0, 0.15); */
+    background-color: rgb(40, 0, 0);
+    border: 6px ridge white;
+    border-radius: 15px;
+}
 
 /* !FOOTER SECTION */
 footer{
